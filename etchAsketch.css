@@ -1,0 +1,48 @@
+#grid {
+  height: 800px;
+  width: 80%;
+  background-color: lightskyblue;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* min-height: 100vh; */
+  overflow: hidden;
+  /* align-items: center; */
+  /* align-content: space-between; */
+  /* max-height: fit-content; */
+  /* display: block; */
+  /* height: 1%; */
+  margin: auto;
+}
+
+div {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  /* border: 1px solid black; */
+  margin: 0.5px;
+  /* flex: 1 1 auto; */
+  max-height: inherit;
+  max-width: inherit;
+}
+div:hover {
+  background-color: blue;
+}
+
+/* .twobytwo {
+  width: 250px;
+  height: 250px;
+  background-color: blueviolet;
+} */
+
+#x10000 {
+  margin-bottom: 10px;
+  justify-content: center;
+  background-color: aqua;
+  margin-left: 46%;
+}
+
+h1 {
+  text-align: center;
+}
